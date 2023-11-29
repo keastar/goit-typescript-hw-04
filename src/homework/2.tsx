@@ -3,6 +3,7 @@
 // State: Цей тип являє собою об'єкт з двома властивостями isRequestInProgress і RequestStep
 // Action: Це тип, що представляє можливі дії, які можуть бути відправлені до редюсера.
 // Дивіться код і опишіть для нього правильні типи.
+import React, { useReducer } from 'react';
 
 type State = {
 isRequestInProgress: true | false,
